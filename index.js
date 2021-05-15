@@ -13,7 +13,7 @@ const tutorials = [
 
 
 
-let titleCased = tutorials.map((sentences){
+const titleCased = tutorials.map((sentences){
 return tutorials.map((sentences){
     sentences = sentences.split(' ');
 
