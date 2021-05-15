@@ -23,27 +23,3 @@ function titleCased() {
 });
 };
 titleCased(tutorials);
-/*
-
-function titleCased() {
-  return tutorials.map(function (tutorial) {
-    tutorial = tutorial.split(' ');
-    for (var i = 0; i < tutorial.length; i++) {
-      tutorial[i] = tutorial[i].charAt(0).toUpperCase() + tutorial[i].slice(1);
-    }
-    return tutorial.join(' ');
-  });
-}
-/*
-const titleCased = tutorials.map((sentences){
-return tutorials.map((sentences){
-    sentences = sentences.split(' ');
-
-    for (let i=0; i<sentences.length; i++) {
-      sentences[i] = sentences[i].charAt(0).toUpperCase() + sentences[i].slice(1);
-     }
-    sentences=sentences.join(' ');
-    return sentences;
-  });
-
-});
